@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title >Galeria </title>
+    </head>
+    <style>
+        .contenedor{
+            width:90%;
+            max-width:900px;
+            margin-left: 160px; 
+  padding: 0px 10px;
+        }
+        #galeria{
+            border: 1px dotted black;
+  overflow: hidden;
+  width: 450px;
+        }
+        header{
+            padding:20px 0;
+            text-align:center;
+            margin-bottom:20px;
+        }
+        .categorias{
+            display:flex;
+            justify-content:center;
+            flex-wrap:wrap;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        .categorias a{
+            color:#745b5b;
+            margin: 10px 20px;
+            font-size: 18px;
+            font-weight:700;
+      
+
+        }
+        .categorias a.activo{
+            color:black;
+        }
+        .element {
+  width: 100px;
+  height: 150px;
+  float: left;
+  margin : 5px;
+}
+body{
+    background-color: rgb(235, 230, 230);
+}
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(100, 71, 71);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a ,h1{
+  padding: 10px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #0e0d0d;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    </style>
+    <body>
+        <div class="sidenav">
+            <h1>Galeria de imágenes</h1> 
+            <a href="#publicar">Publicar</a>
+            <a href="#actualizar">Actualizar</a>
+            <a href="#borrar">Borrar</a>
+          </div>
+        <div class="contenedor">
+            <header>
+                <h1> Galería de imágenes </h1>
+            </header>
+
+        <div class="categorias">
+            <a href="#" class="activo"> Todos </a>
+            <a href="#"> Categoria 1 </a>
+            <a href="#"> Categoria 2 </a>
+            <a href="#"> Categoria 3 </a>
+            <div id="galeria">
+                <img class="element"  src="{{ url_for('static', filename='images/logo.png')}}"> </img> 
+                <img class="element" src="{{ url_for('static', filename='images/logo.png')}}"></img>
+                <img class="element" src="{{ url_for('static', filename='images/logo.png')}}"> </img>
+                <img class="element" src="{{ url_for('static', filename='images/logo.png')}}"> </img>
+                <img class="element" src="{{ url_for('static', filename='images/logo.png')}}"> </img>
+     
+     
+     
+            </div>
+        </div>
+    
+    </div>
+    </body>
+</html>

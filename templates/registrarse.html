@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Red Social</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.min.css')}}"/>
+  <!-- Material Design Bootstrap -->
+ 
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/mdb.min.css')}}"/>
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/style1.css')}}"/>
+  <!-- Your custom styles (optional) -->
+  
+    
+    <script   src="{{ url_for('static',filename='js/jquery.min.js')}}"></script>
+    <!-- Bootstrap tooltips -->
+    <script  src="{{ url_for('static',filename='js/popper.min.js')}}"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script   src="{{ url_for('static',filename='js/bootstrap.min.js')}}"></script>
+    <!-- MDB core JavaScript -->
+    <script  src="{{ url_for('static',filename='js/mdb.min.js')}}"></script>  
+    <script type="text/javascript">
+        $(function(){
+
+            $('#modal1').modal({
+                backdrop:'static',
+                keyboard:false,
+                focus: false,
+                
+            });
+        });
+    </script>  
+</head>
+<body>
+    
+    <div class="modal fade"  id="modal1">
+        <div class="modal-dialog"   >
+            <div class="modal-content">
+                <form method="POST" action="" class="formulario" name="formulario">
+                    {{ form.hidden_tag() }}
+                    {{ form.enviar(id="registro") }}
+                    
+                    <div id="crear_cuenta">
+                        <h4>Crea tu cuenta</h4>
+                    </div>
+                    <div class="md-form mb-5">
+          
+                        
+                        {{ form.name(id="orangeForm-name", id="orangeForm-name",class="form-control validate", required='required') }}
+                        {{ form.name.label(for="orangeForm-name") }}
+                        
+                      </div>
+                    <div class="md-form mb-5">
+                        
+                        {{ form.email(type="email", id="orangeForm-email", class="form-control validate", required='required') }}
+                        {{ form.email.label(for="orangeForm-email")}}
+                        
+                      </div>
+        
+                        <div class="md-form mb-5">
+                          
+                         
+                          {{ form.user(id="user", class="form-control validate", required='required') }}
+                          {{ form.user.label(for="user") }}
+                          
+                        </div>
+
+                    <div class="md-form mb-4">
+                        
+                        {{ form.contra(id="orangeForm-pass", class="form-control validate", required='required') }}
+                        {{ form.contra.label(for="orangeForm-pass") }}
+                        
+                        
+                    </div>
+                </form>
+                
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,429 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Alexander\\Anaconda3\\pkgs\\distlib-0.3.1-py38_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/distlib-0.3.1.dist-info/INSTALLER",
+    "Lib/site-packages/distlib-0.3.1.dist-info/LICENSE.txt",
+    "Lib/site-packages/distlib-0.3.1.dist-info/METADATA",
+    "Lib/site-packages/distlib-0.3.1.dist-info/RECORD",
+    "Lib/site-packages/distlib-0.3.1.dist-info/REQUESTED",
+    "Lib/site-packages/distlib-0.3.1.dist-info/WHEEL",
+    "Lib/site-packages/distlib-0.3.1.dist-info/direct_url.json",
+    "Lib/site-packages/distlib-0.3.1.dist-info/top_level.txt",
+    "Lib/site-packages/distlib/__init__.py",
+    "Lib/site-packages/distlib/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/distlib/__pycache__/compat.cpython-38.pyc",
+    "Lib/site-packages/distlib/__pycache__/database.cpython-38.pyc",
+    "Lib/site-packages/distlib/__pycache__/index.cpython-38.pyc",
+    "Lib/site-packages/distlib/__pycache__/locators.cpython-38.pyc",
+    "Lib/site-packages/distlib/__pycache__/manifest.cpython-38.pyc",
+    "Lib/site-packages/distlib/__pycache__/markers.cpython-38.pyc",
+    "Lib/site-packages/distlib/__pycache__/metadata.cpython-38.pyc",
+    "Lib/site-packages/distlib/__pycache__/resources.cpython-38.pyc",
+    "Lib/site-packages/distlib/__pycache__/scripts.cpython-38.pyc",
+    "Lib/site-packages/distlib/__pycache__/util.cpython-38.pyc",
+    "Lib/site-packages/distlib/__pycache__/version.cpython-38.pyc",
+    "Lib/site-packages/distlib/__pycache__/wheel.cpython-38.pyc",
+    "Lib/site-packages/distlib/_backport/__init__.py",
+    "Lib/site-packages/distlib/_backport/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/distlib/_backport/__pycache__/misc.cpython-38.pyc",
+    "Lib/site-packages/distlib/_backport/__pycache__/shutil.cpython-38.pyc",
+    "Lib/site-packages/distlib/_backport/__pycache__/sysconfig.cpython-38.pyc",
+    "Lib/site-packages/distlib/_backport/__pycache__/tarfile.cpython-38.pyc",
+    "Lib/site-packages/distlib/_backport/misc.py",
+    "Lib/site-packages/distlib/_backport/shutil.py",
+    "Lib/site-packages/distlib/_backport/sysconfig.cfg",
+    "Lib/site-packages/distlib/_backport/sysconfig.py",
+    "Lib/site-packages/distlib/_backport/tarfile.py",
+    "Lib/site-packages/distlib/compat.py",
+    "Lib/site-packages/distlib/database.py",
+    "Lib/site-packages/distlib/index.py",
+    "Lib/site-packages/distlib/locators.py",
+    "Lib/site-packages/distlib/manifest.py",
+    "Lib/site-packages/distlib/markers.py",
+    "Lib/site-packages/distlib/metadata.py",
+    "Lib/site-packages/distlib/resources.py",
+    "Lib/site-packages/distlib/scripts.py",
+    "Lib/site-packages/distlib/t32.exe",
+    "Lib/site-packages/distlib/t64.exe",
+    "Lib/site-packages/distlib/util.py",
+    "Lib/site-packages/distlib/version.py",
+    "Lib/site-packages/distlib/w32.exe",
+    "Lib/site-packages/distlib/w64.exe",
+    "Lib/site-packages/distlib/wheel.py",
+    ".nonadmin"
+  ],
+  "fn": "distlib-0.3.1-py38_0.tar.bz2",
+  "license": "Python Software Foundation License",
+  "license_family": "OTHER",
+  "link": {
+    "source": "C:\\Users\\Alexander\\Anaconda3\\pkgs\\distlib-0.3.1-py38_0",
+    "type": 1
+  },
+  "md5": "6075c79bea26501ee6b57618651d655a",
+  "name": "distlib",
+  "package_tarball_full_path": "C:\\Users\\Alexander\\Anaconda3\\pkgs\\distlib-0.3.1-py38_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/distlib-0.3.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/distlib-0.3.1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d",
+        "sha256_in_prefix": "808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d",
+        "size_in_bytes": 14531
+      },
+      {
+        "_path": "Lib/site-packages/distlib-0.3.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e090aa99a6ddf8c51d8d47e10c3a0bd8e3e06550ccb88a8b5b6ca98b54219fb5",
+        "sha256_in_prefix": "e090aa99a6ddf8c51d8d47e10c3a0bd8e3e06550ccb88a8b5b6ca98b54219fb5",
+        "size_in_bytes": 1251
+      },
+      {
+        "_path": "Lib/site-packages/distlib-0.3.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "bb635f2235a1227dd86daa02595972ec557b1cc27ee1be123dcd56b1fda679c8",
+        "sha256_in_prefix": "bb635f2235a1227dd86daa02595972ec557b1cc27ee1be123dcd56b1fda679c8",
+        "size_in_bytes": 3355
+      },
+      {
+        "_path": "Lib/site-packages/distlib-0.3.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/distlib-0.3.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "0f55a1d789160f13e7accfb9b7fe94081f94b9036b10e0ed45adef1783acbd06",
+        "sha256_in_prefix": "0f55a1d789160f13e7accfb9b7fe94081f94b9036b10e0ed45adef1783acbd06",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "Lib/site-packages/distlib-0.3.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a713fc73390a393aca2842c4ef2be98b050bab71fea3fc86befc437dd17edecb",
+        "sha256_in_prefix": "a713fc73390a393aca2842c4ef2be98b050bab71fea3fc86befc437dd17edecb",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "Lib/site-packages/distlib-0.3.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f41111aa2b6efefcf27b220b39c1b35fd632036001ff1942e3ef3557ac688b39",
+        "sha256_in_prefix": "f41111aa2b6efefcf27b220b39c1b35fd632036001ff1942e3ef3557ac688b39",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "Lib/site-packages/distlib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "def780936acfce7381da0b0aead8db6e1d1340c9861393fcd9e13dc17aba3489",
+        "sha256_in_prefix": "def780936acfce7381da0b0aead8db6e1d1340c9861393fcd9e13dc17aba3489",
+        "size_in_bytes": 581
+      },
+      {
+        "_path": "Lib/site-packages/distlib/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f85c5448ec7fb749cd043f2b11a7ab88f5ac50d842ca3b27efe9cbc8e1530533",
+        "sha256_in_prefix": "f85c5448ec7fb749cd043f2b11a7ab88f5ac50d842ca3b27efe9cbc8e1530533",
+        "size_in_bytes": 995
+      },
+      {
+        "_path": "Lib/site-packages/distlib/__pycache__/compat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "de43e939347b2fda9ec1ae3291fea70bd7dc92fc05e029b280a586ffb0d6efde",
+        "sha256_in_prefix": "de43e939347b2fda9ec1ae3291fea70bd7dc92fc05e029b280a586ffb0d6efde",
+        "size_in_bytes": 32161
+      },
+      {
+        "_path": "Lib/site-packages/distlib/__pycache__/database.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3f181c84543a1d6396870fadfca4a867479cd6df239e0e32958b579eaf8f5d32",
+        "sha256_in_prefix": "3f181c84543a1d6396870fadfca4a867479cd6df239e0e32958b579eaf8f5d32",
+        "size_in_bytes": 42052
+      },
+      {
+        "_path": "Lib/site-packages/distlib/__pycache__/index.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8fca0a483379a8326e9a3f8428472630d5ae7c57b77643b26a6feee1b4936ef8",
+        "sha256_in_prefix": "8fca0a483379a8326e9a3f8428472630d5ae7c57b77643b26a6feee1b4936ef8",
+        "size_in_bytes": 17348
+      },
+      {
+        "_path": "Lib/site-packages/distlib/__pycache__/locators.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b779012277e35b4caf144dbcb3418de41c242361ea509bb395d592c7a3d7a34",
+        "sha256_in_prefix": "1b779012277e35b4caf144dbcb3418de41c242361ea509bb395d592c7a3d7a34",
+        "size_in_bytes": 38350
+      },
+      {
+        "_path": "Lib/site-packages/distlib/__pycache__/manifest.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "36c550a833fc6127c0efdb8e03ef566d094715829b29cf97a880aef0e42cc0d9",
+        "sha256_in_prefix": "36c550a833fc6127c0efdb8e03ef566d094715829b29cf97a880aef0e42cc0d9",
+        "size_in_bytes": 10170
+      },
+      {
+        "_path": "Lib/site-packages/distlib/__pycache__/markers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c38348d93e40479f602617dc16d6922a46e303b3be666c81cc89856c869d53e",
+        "sha256_in_prefix": "0c38348d93e40479f602617dc16d6922a46e303b3be666c81cc89856c869d53e",
+        "size_in_bytes": 4434
+      },
+      {
+        "_path": "Lib/site-packages/distlib/__pycache__/metadata.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "50be9a23f41476931056998840edf8eff7339c4cc85ddbdfb331f6845a0a2109",
+        "sha256_in_prefix": "50be9a23f41476931056998840edf8eff7339c4cc85ddbdfb331f6845a0a2109",
+        "size_in_bytes": 26342
+      },
+      {
+        "_path": "Lib/site-packages/distlib/__pycache__/resources.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7c5bcecb0d83ce6fd93151f79113974342570a434590e0e5764bd230c5ba047",
+        "sha256_in_prefix": "e7c5bcecb0d83ce6fd93151f79113974342570a434590e0e5764bd230c5ba047",
+        "size_in_bytes": 10945
+      },
+      {
+        "_path": "Lib/site-packages/distlib/__pycache__/scripts.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf0dedf11acf77d4a3ab9890815a66341bfa71b34ff36d880568e8fab65f8290",
+        "sha256_in_prefix": "bf0dedf11acf77d4a3ab9890815a66341bfa71b34ff36d880568e8fab65f8290",
+        "size_in_bytes": 10851
+      },
+      {
+        "_path": "Lib/site-packages/distlib/__pycache__/util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "874fcc51f4d760b2004859cd078fb077a8059a37a50e513ec4c31654d8e97ae1",
+        "sha256_in_prefix": "874fcc51f4d760b2004859cd078fb077a8059a37a50e513ec4c31654d8e97ae1",
+        "size_in_bytes": 48098
+      },
+      {
+        "_path": "Lib/site-packages/distlib/__pycache__/version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "697731895979ea94e996347c5109cf12c34123ccf1f001d4a73291008e4f6875",
+        "sha256_in_prefix": "697731895979ea94e996347c5109cf12c34123ccf1f001d4a73291008e4f6875",
+        "size_in_bytes": 20304
+      },
+      {
+        "_path": "Lib/site-packages/distlib/__pycache__/wheel.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "eef1556ae24586055480559f26310742f6d852ede7a02f83dec7c4e285aa958d",
+        "sha256_in_prefix": "eef1556ae24586055480559f26310742f6d852ede7a02f83dec7c4e285aa958d",
+        "size_in_bytes": 25722
+      },
+      {
+        "_path": "Lib/site-packages/distlib/_backport/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6ea4bf753387eae5bd88681dd2ecdfa4f8e8eaf678c693d9ee4c9f649daf35ac",
+        "sha256_in_prefix": "6ea4bf753387eae5bd88681dd2ecdfa4f8e8eaf678c693d9ee4c9f649daf35ac",
+        "size_in_bytes": 274
+      },
+      {
+        "_path": "Lib/site-packages/distlib/_backport/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b31a5f36cae68cb9f8f730643d8255f0a110ccc08a5405a302b56628ce0808c4",
+        "sha256_in_prefix": "b31a5f36cae68cb9f8f730643d8255f0a110ccc08a5405a302b56628ce0808c4",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "Lib/site-packages/distlib/_backport/__pycache__/misc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "54a61a378d422ce8526cf5c0ccae72be16757c47ba36291117293d18a32ea559",
+        "sha256_in_prefix": "54a61a378d422ce8526cf5c0ccae72be16757c47ba36291117293d18a32ea559",
+        "size_in_bytes": 1031
+      },
+      {
+        "_path": "Lib/site-packages/distlib/_backport/__pycache__/shutil.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f22a1fad51fc13c8687b482e0f27405084fceea38ed38cbe89d95a8b83063fc",
+        "sha256_in_prefix": "7f22a1fad51fc13c8687b482e0f27405084fceea38ed38cbe89d95a8b83063fc",
+        "size_in_bytes": 21487
+      },
+      {
+        "_path": "Lib/site-packages/distlib/_backport/__pycache__/sysconfig.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "632cd7488aa6ccada67491a62612dec8c96ee3abaa2cf6cdd64c023874f62163",
+        "sha256_in_prefix": "632cd7488aa6ccada67491a62612dec8c96ee3abaa2cf6cdd64c023874f62163",
+        "size_in_bytes": 15851
+      },
+      {
+        "_path": "Lib/site-packages/distlib/_backport/__pycache__/tarfile.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8441fb4b7b2c26ccd322aa8dca9dd0615b3780e0deb6f73fe38571fa09209e46",
+        "sha256_in_prefix": "8441fb4b7b2c26ccd322aa8dca9dd0615b3780e0deb6f73fe38571fa09209e46",
+        "size_in_bytes": 62680
+      },
+      {
+        "_path": "Lib/site-packages/distlib/_backport/misc.py",
+        "path_type": "hardlink",
+        "sha256": "29679c20d75b14d3b148e3f57c617af340899da0ba4b87c146012d6984f0d228",
+        "sha256_in_prefix": "29679c20d75b14d3b148e3f57c617af340899da0ba4b87c146012d6984f0d228",
+        "size_in_bytes": 971
+      },
+      {
+        "_path": "Lib/site-packages/distlib/_backport/shutil.py",
+        "path_type": "hardlink",
+        "sha256": "217fc6d8d3eac1e70989b9080e37b4e1baaed31a4791f490d8668674456a3396",
+        "sha256_in_prefix": "217fc6d8d3eac1e70989b9080e37b4e1baaed31a4791f490d8668674456a3396",
+        "size_in_bytes": 25707
+      },
+      {
+        "_path": "Lib/site-packages/distlib/_backport/sysconfig.cfg",
+        "path_type": "hardlink",
+        "sha256": "b3064ac6af516397bdaf73d70ab96f40f32cbce7625990531cb11ba92f0b24b5",
+        "sha256_in_prefix": "b3064ac6af516397bdaf73d70ab96f40f32cbce7625990531cb11ba92f0b24b5",
+        "size_in_bytes": 2617
+      },
+      {
+        "_path": "Lib/site-packages/distlib/_backport/sysconfig.py",
+        "path_type": "hardlink",
+        "sha256": "0501c595bea9b9b0a5fddbd3d4d8edcc8b61ca5a1f8ca8aca31db7f6cb438345",
+        "sha256_in_prefix": "0501c595bea9b9b0a5fddbd3d4d8edcc8b61ca5a1f8ca8aca31db7f6cb438345",
+        "size_in_bytes": 26854
+      },
+      {
+        "_path": "Lib/site-packages/distlib/_backport/tarfile.py",
+        "path_type": "hardlink",
+        "sha256": "221a7bad745c8db20ac3c08e9bdc1278f57d0111976d217d8065c0327d90f8a5",
+        "sha256_in_prefix": "221a7bad745c8db20ac3c08e9bdc1278f57d0111976d217d8065c0327d90f8a5",
+        "size_in_bytes": 92628
+      },
+      {
+        "_path": "Lib/site-packages/distlib/compat.py",
+        "path_type": "hardlink",
+        "sha256": "003039eb1880c5aaf7994eaa7a694184d6ecac53e8b174613b8e11cec6c93ea9",
+        "sha256_in_prefix": "003039eb1880c5aaf7994eaa7a694184d6ecac53e8b174613b8e11cec6c93ea9",
+        "size_in_bytes": 41408
+      },
+      {
+        "_path": "Lib/site-packages/distlib/database.py",
+        "path_type": "hardlink",
+        "sha256": "2a5d18bcf40a73839ca558bb939705ce2c9d335c4e2bc8aa7712c65e06d91d5e",
+        "sha256_in_prefix": "2a5d18bcf40a73839ca558bb939705ce2c9d335c4e2bc8aa7712c65e06d91d5e",
+        "size_in_bytes": 51059
+      },
+      {
+        "_path": "Lib/site-packages/distlib/index.py",
+        "path_type": "hardlink",
+        "sha256": "4972b3a5008445cb71603329fce2de7b67f42747b5f5984674222832551f5103",
+        "sha256_in_prefix": "4972b3a5008445cb71603329fce2de7b67f42747b5f5984674222832551f5103",
+        "size_in_bytes": 21066
+      },
+      {
+        "_path": "Lib/site-packages/distlib/locators.py",
+        "path_type": "hardlink",
+        "sha256": "73d13870311a709fee29bb84e41a805687285a9eabb2e0464e488d0d0ab7cd5e",
+        "sha256_in_prefix": "73d13870311a709fee29bb84e41a805687285a9eabb2e0464e488d0d0ab7cd5e",
+        "size_in_bytes": 52100
+      },
+      {
+        "_path": "Lib/site-packages/distlib/manifest.py",
+        "path_type": "hardlink",
+        "sha256": "9d0121626828ade681673c85cf062c5f124046eddfa38124ba7535eb7535ea21",
+        "sha256_in_prefix": "9d0121626828ade681673c85cf062c5f124046eddfa38124ba7535eb7535ea21",
+        "size_in_bytes": 14811
+      },
+      {
+        "_path": "Lib/site-packages/distlib/markers.py",
+        "path_type": "hardlink",
+        "sha256": "e807377027c504445ec621125883979a0f9aa483fc9767ac69f3525f728ccbef",
+        "sha256_in_prefix": "e807377027c504445ec621125883979a0f9aa483fc9767ac69f3525f728ccbef",
+        "size_in_bytes": 4387
+      },
+      {
+        "_path": "Lib/site-packages/distlib/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "cf628fcb7877b5c0e76fd5ecee702a4393b3d1baa358050598a59c14a468a1d8",
+        "sha256_in_prefix": "cf628fcb7877b5c0e76fd5ecee702a4393b3d1baa358050598a59c14a468a1d8",
+        "size_in_bytes": 38962
+      },
+      {
+        "_path": "Lib/site-packages/distlib/resources.py",
+        "path_type": "hardlink",
+        "sha256": "d851afd191c5d782978cb2252f447df7597241019c7b0392e2627ee67f895677",
+        "sha256_in_prefix": "d851afd191c5d782978cb2252f447df7597241019c7b0392e2627ee67f895677",
+        "size_in_bytes": 10766
+      },
+      {
+        "_path": "Lib/site-packages/distlib/scripts.py",
+        "path_type": "hardlink",
+        "sha256": "fcc023dec32ebf9ea4b8cf05b222165ea6d3d209ae98f19a391fdab4ece7e1ae",
+        "sha256_in_prefix": "fcc023dec32ebf9ea4b8cf05b222165ea6d3d209ae98f19a391fdab4ece7e1ae",
+        "size_in_bytes": 17180
+      },
+      {
+        "_path": "Lib/site-packages/distlib/t32.exe",
+        "path_type": "hardlink",
+        "sha256": "352df104254095ddf925514d99bfb5411c95b5386e90caf06557979f82e16844",
+        "sha256_in_prefix": "352df104254095ddf925514d99bfb5411c95b5386e90caf06557979f82e16844",
+        "size_in_bytes": 96768
+      },
+      {
+        "_path": "Lib/site-packages/distlib/t64.exe",
+        "path_type": "hardlink",
+        "sha256": "a00a877acefcad45953343ad56a22152f7aaba5fcf2a10215d84169d47fbcd1d",
+        "sha256_in_prefix": "a00a877acefcad45953343ad56a22152f7aaba5fcf2a10215d84169d47fbcd1d",
+        "size_in_bytes": 105984
+      },
+      {
+        "_path": "Lib/site-packages/distlib/util.py",
+        "path_type": "hardlink",
+        "sha256": "7f68d908fadc2c2b7a2dc9c2d20532f85babeb4b570fcade03b938ac3a47303c",
+        "sha256_in_prefix": "7f68d908fadc2c2b7a2dc9c2d20532f85babeb4b570fcade03b938ac3a47303c",
+        "size_in_bytes": 59845
+      },
+      {
+        "_path": "Lib/site-packages/distlib/version.py",
+        "path_type": "hardlink",
+        "sha256": "fe7ec5ea3baf40601c9fbebd13f4876bb7ce71fe44465115ca627f1233d1c06c",
+        "sha256_in_prefix": "fe7ec5ea3baf40601c9fbebd13f4876bb7ce71fe44465115ca627f1233d1c06c",
+        "size_in_bytes": 23391
+      },
+      {
+        "_path": "Lib/site-packages/distlib/w32.exe",
+        "path_type": "hardlink",
+        "sha256": "949b6765d794c53656c9afc45b90d9a2cfcae6bb30444086b29225f19242217b",
+        "sha256_in_prefix": "949b6765d794c53656c9afc45b90d9a2cfcae6bb30444086b29225f19242217b",
+        "size_in_bytes": 90112
+      },
+      {
+        "_path": "Lib/site-packages/distlib/w64.exe",
+        "path_type": "hardlink",
+        "sha256": "d1a473a0dd813bd3565b810dcb8ff8bc7907478a994c564d55200925894e0d32",
+        "sha256_in_prefix": "d1a473a0dd813bd3565b810dcb8ff8bc7907478a994c564d55200925894e0d32",
+        "size_in_bytes": 99840
+      },
+      {
+        "_path": "Lib/site-packages/distlib/wheel.py",
+        "path_type": "hardlink",
+        "sha256": "bfa0e7c13aa1347c2b11516bf3f61e8935ba1b87ed3ff7afb32c0d82b99d6f6a",
+        "sha256_in_prefix": "bfa0e7c13aa1347c2b11516bf3f61e8935ba1b87ed3ff7afb32c0d82b99d6f6a",
+        "size_in_bytes": 41144
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6ffaacb5423660a1b4c9fd618bb48eb328c64b5154c913b35061ff19cfce1447",
+  "size": 571473,
+  "subdir": "win-64",
+  "timestamp": 1600698017561,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/distlib-0.3.1-py38_0.tar.bz2",
+  "version": "0.3.1"
+}

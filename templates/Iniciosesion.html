@@ -1,0 +1,59 @@
+<html>
+
+    <head> 
+        <title>Iniciar sesión</title>
+        <meta charset="UTF-8">
+    </head>
+
+<style>
+form{
+
+width:300;
+
+}
+body,form{
+    background-color: rgb(235, 230, 230);
+  text-align: center;
+  margin: 100 auto;
+  width: 40em;
+}
+::-webkit-input-placeholder{
+
+    border-bottom: solid blue;
+     background-color: rgb(248, 245, 245);
+}
+input {
+  font-size: 1.5em;
+ width:100%;
+}
+a{
+
+    padding:10;
+}
+#boton{
+    background: blue;
+}
+</style>
+
+<form action="" method="POST">
+    <h1> Iniciar sesión </h1>
+    <br>
+    {{ form.hidden_tag() }}
+    <p>{{ form.usuario(placeholder="Usuario", required='required') }} 
+    </p>
+    <br>
+    <p>{{ form.contraseña(placeholder="Contraseña", required='required') }}
+    </p>
+    <br>
+    <p class="boton"> {{form.submit(size=50)}}
+    </p>
+    <br>
+    <a href="{{url_for('Registrarse')}}"> Regístrate </a> 
+    <a href="{{url_for('olvidarcontraseña')}}"> ¿Olvidaste tu contraseña?</a>
+
+</form>
+
+
+
+
+</html>

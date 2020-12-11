@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi Galeria</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/styles.css')}}">
+</head>
+<body>
+	<header>
+		<div class="header">
+			<img id="logo" src="{{ url_for('static', filename='images/logo.png')}}"/>
+			<button id="button-login" onClick="parent.open('Iniciosesion')">Cerrar sesión</button>
+			<label for="search" class="form-group">
+				<span class="icon-search"></span>
+				<input type="text" name="search" id="search" placeholder="Buscar">
+			</label>
+			<div id="logo-account"></div>
+		</div>
+	</header>
+	<section>
+		<div class="container-gallery-example">
+			<div>
+				<button id="my-gallery-button" onClick="parent.open('Galeria')">Mi galeria</button>
+			</div>
+			<div>
+				<img class="image-example" src="{{ url_for('static', filename='images/logo.png')}}"/>
+				<img class="image-example" src="{{ url_for('static', filename='images/logo.png')}}"/>
+				<img class="image-example" src="{{ url_for('static', filename='images/logo.png')}}"/>
+				<img class="image-example" src="{{ url_for('static', filename='images/logo.png')}}"/>
+				<img class="image-example" src="{{ url_for('static', filename='images/logo.png')}}"/>
+				<img class="image-example" src="{{ url_for('static', filename='images/logo.png')}}"/>
+			</div>
+		</div>
+		<div class="container-gallery">
+			<img class="image-view" src="{{ url_for('static', filename='images/download-image.png')}}"/>
+			<img class="image-view" src="{{ url_for('static', filename='images/download-image.png')}}"/>
+		</div>
+	</section>
+</body>
+</html>

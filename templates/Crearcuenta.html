@@ -1,0 +1,54 @@
+<html>
+    
+<head> 
+    <title>Crear cuenta</title>
+    <meta charset="UTF-8">
+</head>
+<style>
+div{
+   
+    width:300px;
+    margin:auto;
+    margin-top: 5%;
+    background-color:rgb(135, 175, 160);
+    border-style:solid;
+    border-color: black;
+    padding:30;
+}
+body{
+    background-image:url(https://miracomosehace.com/wp-content/uploads/mch/id_50.jpg);
+}
+#boton{
+float: right;
+}
+
+</style>
+<div>
+<form action="" method="POST">
+    {{ registro.hidden_tag() }}
+    <p>  {{registro.submit()}}</p>
+    <br>
+    <br>
+    <label style=font-size:30>  Crea tu cuenta </label>
+    <p>
+        {{registro.nombre.label}}<br><br>
+        {{ registro.nombre(placeholder="Nombre", required='required') }} <br>
+    </p>
+    <p>
+        {{registro.usuario.label}}<br>
+        <br>
+        {{ registro.usuario(placeholder="Usuario", required='required') }} 
+    </p>
+    <p>
+        {{registro.contraseña.label}}<br>
+        <br>
+        {{ registro.contraseña(placeholder="Contraseña", required='required') }} 
+    </p>
+    <p>
+        {{registro.correo.label}}<br><br>
+        {{ registro.correo(placeholder="Correo", required='required') }} 
+    </p>
+    <br>
+</form>
+</div>
+</html>

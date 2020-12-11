@@ -1,0 +1,29 @@
+img{
+    width: 5%;
+}
+label{
+    display: inline-block;
+    width: 80px;
+}
+.formulario{
+    margin: 0 auto;
+    display: block;
+    font-family: sans-serif;
+    
+}
+
+.contend{
+    display:flex;
+    align-items:center;
+}
+h1{
+    font-family: serif;
+    color: #377ba8;
+    background-color: lightblue;
+}
+#registro{
+    text-align: center;
+    min-width: 200px;
+    
+    
+}

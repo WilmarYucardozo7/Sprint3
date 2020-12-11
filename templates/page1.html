@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+    
+    <title>Red Social</title>
+    
+    
+
+    
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.min.css')}}">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/mdb.min.css')}}">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/style1.css')}}">
+    
+    <script type="JavaScript"  src="{{ url_for('static',filename='js/jquery.min.js')}}"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="JavaScript"  src="{{ url_for('static',filename='js/popper.min.js')}}"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="JavaScript"  src="{{ url_for('static',filename='js/bootstrap.min.js')}}"></script>
+    <!-- MDB core JavaScript -->
+    <script type="JavaScript"  src="{{ url_for('static',filename='js/mdb.min.js')}}"></script> 
+</head>
+<body>
+    
+    <div class="bloque1">
+        <img src="{{ url_for('static', filename='images/carro.jpg') }}">
+    </div>
+    <div class="bloque2">
+        <div class="caja">
+        <div class="mensaje">    
+        <span class="p1">
+            
+            Observa miles de imágenes en nuestra red social
+        </span>
+        </div >
+        <div class="recomendacion">
+            <span>
+                
+                Únete hoy mismo.
+
+            </span>
+            
+        </div>
+        <div class="botones">    
+        <button class="inicio" type="button" onClick="parent.open('registrarse')" >
+            Regístrate</button><br/><br/>
+        <button class="inicio" onClick="parent.open('Iniciosesion')">Iniciar sesión</button>
+        </div>    
+    </div>
+</div>
+    
+</body>
+</html>
