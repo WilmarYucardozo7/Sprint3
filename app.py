@@ -3,6 +3,7 @@ from forms import IniciosesionForm,OlvidarForm,RegistrarForm
 import yagmail as yagmail
 import utils
 from flask import session
+from usuario import Usuario
 
 
 app=Flask(__name__)
@@ -34,7 +35,8 @@ def Registrarse():
         if not utils.isPasswordValid(password):
             flash("Contraseña invalida")
             return render_template('registrarse.html',form=form)    
-        
+        usuario = Usuario(None, username, name, None, email, password, None, None)
+        result = usuario.registrar()
         yag = yagmail.SMTP('mintic2022@gmail.com', 'HolamundoMintic2020')  #SMTP protocolo de envío de correos      
         yag.send(to=email, subject='Activa tu cuenta', contents='Bienvenido, usa el link para activar tu cuenta')
         flash("Cuenta creada con éxito")
