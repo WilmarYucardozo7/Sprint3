@@ -1,7 +1,9 @@
 from conexion import Conexion
+from flask import render_template, redirect
 import time
 import hashlib
 import smtplib
+import yagmail as yagmail
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
@@ -97,30 +99,7 @@ class Usuario():
 		return resultado
 
 	def enviarCorreoActivacion(self):
-		s = smtplib.SMTP(host='smtp.gmail.com', port=465)
-		s.ehlo()
-		s.starttls()
-		s.login("test.galeria.tic@gmail.com", "galeria.tic.1234")
-		msg = MIMEMultipart('alternative')
-		message_template_text = "Hola, sigue este enlace LINK_URL para activar tu cuenta"
-		message_template_html = "Hola, sigue este <a href='LINK_URL' target='_blank'> enlace </a> para activar tu cuenta"
-		message_html = message_template_html.substitute(LINK_URL = "http://127.0.0.1:5000/activar?codigo=" + self.codigoActivacion)
-		message_text = message_template_text.substitute(LINK_URL = "http://127.0.0.1:5000/activar?codigo=" + self.codigoActivacion)
-
-		msg['From'] = "test.galeria.tic@gmail.com"
-		msg['To'] = self.correo
-		msg['Subject'] = "Correo de activación de cuenta"
-
-		msg.attach(MIMEText(message_text, 'plain'))
-		msg.attach(MIMEText(message_html, 'html'))
-
-		s.send_message(msg['From'], msg['To'],msg.as_string())
-		s.quit()
-		del msg
-
-
-
-
-
-
-
+                yag=yagmail.SMTP('mintic2022@gmail.com','HolamundoMintic2020')
+                message_template_text = 'Hola, sigue este enlace http://127.0.0.1:5000/activar?codigo=' + self.codigoActivacion +' para activar tu cuenta'
+                yag.send(to=self.correo,subject='Activar cuenta', contents=message_template_text)
+                return redirect('Iniciosesion')
