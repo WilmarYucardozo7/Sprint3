@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title> Blog de imagenes </title>
+</head>
+<style>
+header {
+    padding:25;
+    text-align: center;
+    background: #3b5a8a;
+    color: white;
+    font-size: 30px;
+  }
+body{
+  background-color: rgb(235, 230, 230);
+  text-align: justify;
+  margin: 100 auto;
+  width: 40em;
+  background-image:url(https://miracomosehace.com/wp-content/uploads/mch/id_50.jpg);
+
+}
+div{
+  padding: 30;
+   background-color:rgb(243, 239, 239); 
+}
+
+</style>
+
+<body>
+
+<header> Restablecimiento de contraseña </header>
+<div>
+
+<h1> Asigna nueva contraseña </h1>
+
+<form  action="" method="POST">
+    {{ olv.hidden_tag() }}
+      <label > Ingresa tu correo, número de teléfono o usuario </label>
+      <br> 
+      <p>{{ olv.contraseña(placeholder="Ingresa la nueva contraseña", required='required') }} 
+      </p>
+      {% with messages = get_flashed_messages() %}
+      {% if messages %}
+      <ul class=flashes>
+      {% for message in messages %}
+        <li>{{ message }}</li>
+      {% endfor %}
+      </ul>
+      {% endif %}
+      {% endwith %}
+      <p>{{olv.submit()}}</p>
+  
+  </form>
+  
+  <div>
+  </body>
+  </html>

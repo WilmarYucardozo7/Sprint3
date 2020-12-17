@@ -32,10 +32,10 @@ div{
 
 <h1> Encuentra tu cuenta </h1>
 <form  action="{{url_for('olvidarcontraseña')}}" method="POST">
-  {{ olv.hidden_tag() }}
+  {{ olv1.hidden_tag() }}
     <label > Ingresa tu correo, número de teléfono o usuario </label>
     <br> 
-    <p>{{ olv.correo(placeholder="Ingresa correo, número de teléfono o usuario", required='required') }} 
+    <p>{{ olv1.correo(placeholder="Ingresa correo, número de teléfono o usuario", required='required') }} 
     </p>
     {% with messages = get_flashed_messages() %}
     {% if messages %}
@@ -46,10 +46,6 @@ div{
     </ul>
     {% endif %}
     {% endwith %}
-    <p>{{olv.submit()}}</p>
+    <p>{{olv1.submit()}}</p>
 
 </form>
-
-<div>
-</body>
-</html>

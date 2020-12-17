@@ -41,10 +41,17 @@ a{
     {{ form.hidden_tag() }}
     <p>{{ form.usuario(placeholder="Usuario", required='required') }} 
     </p>
-    <br>
     <p>{{ form.contraseña(placeholder="Contraseña", required='required') }}
     </p>
-    <br>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <ul class=flashes>
+    {% for message in messages %}
+        <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith %}
     <p class="boton"> {{form.submit(size=50)}}
     </p>
     <br>

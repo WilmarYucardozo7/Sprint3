@@ -12,6 +12,10 @@ class OlvidarForm(FlaskForm):
     correo=StringField('Correo',validators=[InputRequired()])
     submit=SubmitField('Recuperar')
 
+class NuevaContraseña(FlaskForm):
+    contraseña= PasswordField('Contraseña', validators=[InputRequired()])
+    submit=SubmitField('Cambiar contraseña')
+
 class RegistrarForm(FlaskForm):
     enviar=SubmitField('Siguiente')
     name=StringField('Nombre')
